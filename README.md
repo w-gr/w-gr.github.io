@@ -1,1 +1,1 @@
-# [Blogs](w-gr.github.io)
+# [Blogs](https://w-gr.github.io/posts/hugo-tutorial/)
