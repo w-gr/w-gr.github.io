@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blogs</title>
+    <link>https://w-gr.github.io/posts/</link>
+    <description>Recent content in Posts on Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2019 23:56:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://w-gr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo - tutorial</title>
+      <link>https://w-gr.github.io/posts/test/</link>
+      <pubDate>Fri, 01 Mar 2019 23:56:43 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/test/</guid>
+      <description>Hugo is a static site generator written in Go.
+Install sudo apt-get install hugo hugo version  Create a new site # this will create a new hugo site in a folder named blogs hugo new site blogs  Add a theme cd blogs # Download the theme git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke # Edit your config.toml configuration file # and add the Ananke theme. echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.</description>
+    </item>
+    
+  </channel>
+</rss>
