@@ -13,12 +13,12 @@
     
     <item>
       <title>Hugo - tutorial</title>
-      <link>https://w-gr.github.io/posts/test/</link>
+      <link>https://w-gr.github.io/posts/hugo-tutorial/</link>
       <pubDate>Fri, 01 Mar 2019 23:56:43 +0800</pubDate>
       
-      <guid>https://w-gr.github.io/posts/test/</guid>
-      <description>Hugo is a static site generator written in Go.
-Install sudo apt-get install hugo hugo version  Create a new site # this will create a new hugo site in a folder named blogs hugo new site blogs  Add a theme cd blogs # Download the theme git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke # Edit your config.toml configuration file # and add the Ananke theme. echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.</description>
+      <guid>https://w-gr.github.io/posts/hugo-tutorial/</guid>
+      <description>Hugo is a static site generator written in Go. This tutorial is based on these: install, quick start, integrate with github
+Install sudo apt-get install hugo # Check if have hugo hugo version  Create a new site # this will create a new hugo site in a folder named blogs hugo new site blogs  Add a theme cd blogs # Download the theme git init git submodule add https://github.</description>
     </item>
     
   </channel>
