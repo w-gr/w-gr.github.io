@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Blogs</title>
+    <link>https://w-gr.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2019 23:56:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://w-gr.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo - tutorial</title>
+      <link>https://w-gr.github.io/posts/hugo-tutorial/</link>
+      <pubDate>Fri, 01 Mar 2019 23:56:43 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/hugo-tutorial/</guid>
+      <description>Hugo is a static site generator written in Go. This tutorial is based on these: install, quick start, integrate with github
+Install sudo apt-get install hugo # Check if have hugo hugo version  Create a new site # this will create a new hugo site in a folder named blogs hugo new site blogs  Add a theme cd blogs # Download the theme git init git submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
