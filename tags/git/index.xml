@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on Blogs</title>
-    <link>https://w-gr.github.io/tags/tutorial/</link>
-    <description>Recent content in Tutorial on Blogs</description>
+    <title>Git on Blogs</title>
+    <link>https://w-gr.github.io/tags/git/</link>
+    <description>Recent content in Git on Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Mar 2019 22:23:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2019 23:13:01 +0800</lastBuildDate>
     
-	<atom:link href="https://w-gr.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://w-gr.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Submodule</title>
+      <link>https://w-gr.github.io/posts/git/git-submodule/</link>
+      <pubDate>Fri, 08 Mar 2019 23:13:01 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/git/git-submodule/</guid>
+      <description> Git Submodule # Add submodule to existed repository git submodule add https://url-of-submodule/submodule # Cloning a repository with submodules git clone https://url-of-project/main-project cd main-project git submodule init git submodule update # Or one command git clone --recurse-submodules https://url-of-project/main-project  </description>
+    </item>
     
     <item>
       <title>Git Flow Tutorial</title>
@@ -23,13 +32,12 @@
     </item>
     
     <item>
-      <title>Hugo - tutorial</title>
-      <link>https://w-gr.github.io/posts/hugo-tutorial/</link>
-      <pubDate>Fri, 01 Mar 2019 23:56:43 +0800</pubDate>
+      <title>Git Ignore</title>
+      <link>https://w-gr.github.io/posts/git/git-ignore/</link>
+      <pubDate>Fri, 08 Mar 2019 22:23:51 +0800</pubDate>
       
-      <guid>https://w-gr.github.io/posts/hugo-tutorial/</guid>
-      <description>Hugo is a static site generator written in Go. This tutorial is based on these: install, quick start, integrate with github
-Install sudo apt-get install hugo # Check if have hugo hugo version  Create a new site # this will create a new hugo site in a folder named blogs hugo new site blogs  Add a theme cd blogs # Download the theme git init git submodule add https://github.</description>
+      <guid>https://w-gr.github.io/posts/git/git-ignore/</guid>
+      <description> Git Ignore file: .gitignore Order  Command line .gitignore file $GIT_DIR/info/exclude core.excludesFile  PATTERN FORMAT  blank line matches no file line start with # serves as comment Trailing spaces are ignored unless they are quoted with backslash (&amp;rdquo;\&amp;ldquo;).  </description>
     </item>
     
   </channel>

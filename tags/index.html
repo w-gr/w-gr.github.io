@@ -38,7 +38,7 @@
 
 
 
-
+<meta property="og:updated_time" content="2019-03-08T23:13:01&#43;08:00"/>
 
 
 
@@ -119,10 +119,105 @@
     <section class="ph4">
       
         <h2 class="f1">
+          <a href="/tags/git" class="link blue hover-black">
+            Tag: git
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/git/git-submodule/" class="link black dim">
+        Git Submodule
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       Git Submodule # Add submodule to existed repository git submodule add https://url-of-submodule/submodule # Cloning a repository with submodules git clone https://url-of-project/main-project cd main-project git submodule init git submodule update # Or one command git clone --recurse-submodules https://url-of-project/main-project  
+    </div>
+  </div>
+</div>
+
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/git/git-flow-tutorial/" class="link black dim">
+        Git Flow Tutorial
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Git flow Branching model There will be these pre-defined branches:
+ master: stores the official release history develop: an integration branch for features feature branches release branches hotfix branches: hotfix for master  Basic concept:
+ A develop branch is created from master A release branch is created from develop Feature branches are created from develop When a feature is complete it is merged into the develop branch When the release branch is done it is merged into develop and master If an issue in master is detected a hotfix branch is created from master Once the hotfix is complete it is merged to both develop and master  Basic commands cd your-git-repositoty-root-directory git flow init # Initialize gitflow git flow feature start f1 # start a new feature git flow feature finish f1 # finish it, will merge into develop branch, and delete itself git flow feature publish f1 # push to remote git flow release start r1 # start a new release git flow release finish r1 # finish it, will merget both into develop and master, rember add tag git flow release publish r1 # push to remote git flow hotfix start h1 # start hotfix from master git flow hotfix finish h1 # finish it, will merget both into develop and master git flow hotfix publish h1 # push to remote  Note  You should install the git-flow locally, and run the git flow init -d in the repository to enable it.
+    </div>
+  </div>
+</div>
+
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/git/git-ignore/" class="link black dim">
+        Git Ignore
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       Git Ignore file: .gitignore Order  Command line .gitignore file $GIT_DIR/info/exclude core.excludesFile  PATTERN FORMAT  blank line matches no file line start with # serves as comment Trailing spaces are ignored unless they are quoted with backslash (&rdquo;\&ldquo;).  
+    </div>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="/tags/laravel" class="link blue hover-black">
+            Tag: laravel
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/laravel/laravel-event-list/" class="link black dim">
+        Laravel Event List
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Laravel Event List There doesn&rsquo;t have a convenient way to get the full list of Laravel system defined events. So we have to search the source code to get the list. Laravel supports two ways to create an event: 1. Event class 2. Closure based event with a given name
+The event classes The event classes are typically stored in Events directory
+# The events directories find vendor/laravel/framework/ -name 'Events' -type d | grep -v '/Illuminate/Events' | sort # The event classes, exclude some base classes, traits, etc.
+    </div>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
           <a href="/tags/tutorial" class="link blue hover-black">
             Tag: tutorial
           </a>
         </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/git/git-flow-tutorial/" class="link black dim">
+        Git Flow Tutorial
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Git flow Branching model There will be these pre-defined branches:
+ master: stores the official release history develop: an integration branch for features feature branches release branches hotfix branches: hotfix for master  Basic concept:
+ A develop branch is created from master A release branch is created from develop Feature branches are created from develop When a feature is complete it is merged into the develop branch When the release branch is done it is merged into develop and master If an issue in master is detected a hotfix branch is created from master Once the hotfix is complete it is merged to both develop and master  Basic commands cd your-git-repositoty-root-directory git flow init # Initialize gitflow git flow feature start f1 # start a new feature git flow feature finish f1 # finish it, will merge into develop branch, and delete itself git flow feature publish f1 # push to remote git flow release start r1 # start a new release git flow release finish r1 # finish it, will merget both into develop and master, rember add tag git flow release publish r1 # push to remote git flow hotfix start h1 # start hotfix from master git flow hotfix finish h1 # finish it, will merget both into develop and master git flow hotfix publish h1 # push to remote  Note  You should install the git-flow locally, and run the git flow init -d in the repository to enable it.
+    </div>
+  </div>
+</div>
+
         
           <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">

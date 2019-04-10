@@ -3,13 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://w-gr.github.io/posts/laravel/laravel-event-list/</loc>
+    <lastmod>2019-03-25T22:23:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://w-gr.github.io/posts/git/git-submodule/</loc>
+    <lastmod>2019-03-08T23:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://w-gr.github.io/posts/git/git-flow-tutorial/</loc>
+    <lastmod>2019-03-08T22:23:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://w-gr.github.io/posts/git/git-ignore/</loc>
+    <lastmod>2019-03-08T22:23:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://w-gr.github.io/posts/hugo-tutorial/</loc>
     <lastmod>2019-03-01T23:56:43+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://w-gr.github.io/</loc>
-    <lastmod>2019-03-01T23:56:43+08:00</lastmod>
+    <lastmod>2019-03-25T22:23:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19,19 +39,32 @@
   </url>
   
   <url>
+    <loc>https://w-gr.github.io/tags/git/</loc>
+    <lastmod>2019-03-08T23:13:01+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://w-gr.github.io/tags/laravel/</loc>
+    <lastmod>2019-03-25T22:23:51+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://w-gr.github.io/posts/</loc>
-    <lastmod>2019-03-01T23:56:43+08:00</lastmod>
+    <lastmod>2019-03-25T22:23:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://w-gr.github.io/tags/</loc>
+    <lastmod>2019-03-08T23:13:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://w-gr.github.io/tags/tutorial/</loc>
-    <lastmod>2019-03-01T23:56:43+08:00</lastmod>
+    <lastmod>2019-03-08T22:23:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   

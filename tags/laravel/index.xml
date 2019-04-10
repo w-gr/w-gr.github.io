@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel on Blogs</title>
+    <link>https://w-gr.github.io/tags/laravel/</link>
+    <description>Recent content in Laravel on Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Mar 2019 22:23:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://w-gr.github.io/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Laravel Event List</title>
+      <link>https://w-gr.github.io/posts/laravel/laravel-event-list/</link>
+      <pubDate>Mon, 25 Mar 2019 22:23:51 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/laravel/laravel-event-list/</guid>
+      <description>Laravel Event List There doesn&amp;rsquo;t have a convenient way to get the full list of Laravel system defined events. So we have to search the source code to get the list. Laravel supports two ways to create an event: 1. Event class 2. Closure based event with a given name
+The event classes The event classes are typically stored in Events directory
+# The events directories find vendor/laravel/framework/ -name &#39;Events&#39; -type d | grep -v &#39;/Illuminate/Events&#39; | sort # The event classes, exclude some base classes, traits, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

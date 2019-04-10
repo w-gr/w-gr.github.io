@@ -6,10 +6,50 @@
     <description>Recent content in Posts on Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 23:56:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 22:23:51 +0800</lastBuildDate>
     
 	<atom:link href="https://w-gr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laravel Event List</title>
+      <link>https://w-gr.github.io/posts/laravel/laravel-event-list/</link>
+      <pubDate>Mon, 25 Mar 2019 22:23:51 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/laravel/laravel-event-list/</guid>
+      <description>Laravel Event List There doesn&amp;rsquo;t have a convenient way to get the full list of Laravel system defined events. So we have to search the source code to get the list. Laravel supports two ways to create an event: 1. Event class 2. Closure based event with a given name
+The event classes The event classes are typically stored in Events directory
+# The events directories find vendor/laravel/framework/ -name &#39;Events&#39; -type d | grep -v &#39;/Illuminate/Events&#39; | sort # The event classes, exclude some base classes, traits, etc.</description>
+    </item>
+    
+    <item>
+      <title>Git Submodule</title>
+      <link>https://w-gr.github.io/posts/git/git-submodule/</link>
+      <pubDate>Fri, 08 Mar 2019 23:13:01 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/git/git-submodule/</guid>
+      <description> Git Submodule # Add submodule to existed repository git submodule add https://url-of-submodule/submodule # Cloning a repository with submodules git clone https://url-of-project/main-project cd main-project git submodule init git submodule update # Or one command git clone --recurse-submodules https://url-of-project/main-project  </description>
+    </item>
+    
+    <item>
+      <title>Git Flow Tutorial</title>
+      <link>https://w-gr.github.io/posts/git/git-flow-tutorial/</link>
+      <pubDate>Fri, 08 Mar 2019 22:23:51 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/git/git-flow-tutorial/</guid>
+      <description>Git flow Branching model There will be these pre-defined branches:
+ master: stores the official release history develop: an integration branch for features feature branches release branches hotfix branches: hotfix for master  Basic concept:
+ A develop branch is created from master A release branch is created from develop Feature branches are created from develop When a feature is complete it is merged into the develop branch When the release branch is done it is merged into develop and master If an issue in master is detected a hotfix branch is created from master Once the hotfix is complete it is merged to both develop and master  Basic commands cd your-git-repositoty-root-directory git flow init # Initialize gitflow git flow feature start f1 # start a new feature git flow feature finish f1 # finish it, will merge into develop branch, and delete itself git flow feature publish f1 # push to remote git flow release start r1 # start a new release git flow release finish r1 # finish it, will merget both into develop and master, rember add tag git flow release publish r1 # push to remote git flow hotfix start h1 # start hotfix from master git flow hotfix finish h1 # finish it, will merget both into develop and master git flow hotfix publish h1 # push to remote  Note  You should install the git-flow locally, and run the git flow init -d in the repository to enable it.</description>
+    </item>
+    
+    <item>
+      <title>Git Ignore</title>
+      <link>https://w-gr.github.io/posts/git/git-ignore/</link>
+      <pubDate>Fri, 08 Mar 2019 22:23:51 +0800</pubDate>
+      
+      <guid>https://w-gr.github.io/posts/git/git-ignore/</guid>
+      <description> Git Ignore file: .gitignore Order  Command line .gitignore file $GIT_DIR/info/exclude core.excludesFile  PATTERN FORMAT  blank line matches no file line start with # serves as comment Trailing spaces are ignored unless they are quoted with backslash (&amp;rdquo;\&amp;ldquo;).  </description>
+    </item>
     
     <item>
       <title>Hugo - tutorial</title>
